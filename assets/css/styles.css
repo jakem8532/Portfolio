@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +10,15 @@ body {
     color: #1d3557;
     line-height: 1.6;
     letter-spacing: 1px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Header */
@@ -74,3 +85,120 @@ header h1 a {
 .hero-btn:hover {
     background-color: #e0eb0e;
 }
+
+
+/* About Me */
+
+.about-me {
+    padding: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.section-heading {
+    margin-bottom: 2em;
+}
+
+.section-info {
+    margin-bottom: 2em;
+}
+
+
+/* Projects */
+
+.projects {
+    background-color: #5db4b7;
+    padding: 2em;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #1d3557;
+}
+
+.projects h2 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+.card {
+    width: 250px;
+    margin: 1em 0.5em;
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.5);
+    transition: 150ms linear;
+    transform: scale(1)
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-bottom {
+    padding: 0.5em;
+}
+
+.card-bottom h3 {
+    margin: 0.5em 0;
+}
+
+.card-bottom p {
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+/* Contact Me */
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me h2 {
+    padding: 1em;
+    margin: 0.5em 0;
+}
+
+.contact-me p {
+    margin-bottom: 1em;
+}
+
+.contact-me p:last-child {
+    margin-bottom: 3em;
+}
+
+/* Footer */
+
+footer {
+    padding: 2em;
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+}
+/* Transcending Classes */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Media Queries */
